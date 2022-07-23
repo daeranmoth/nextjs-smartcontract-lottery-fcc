@@ -117,7 +117,7 @@ export default function LotteryEntrance() {
                             await enterRaffle({
                                 // onComplete:
                                 // onError:
-                                onSuccess: handleSuccess,
+                                onSuccess: handleSuccess, //check if the transaction is successfully send to metamask
                                 onError: (error) => console.log(error),
                             })
                         }
